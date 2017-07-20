@@ -182,7 +182,7 @@ public class devrantWatchFace extends CanvasWatchFaceService {
             if (mCalendar.get(Calendar.DAY_OF_WEEK) == Calendar.MONDAY) {
                 mBackgroundBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.devrantfrown);
 
-            } else if (mCalendar.get(Calendar.DAY_OF_WEEK) == Calendar.THURSDAY) {
+            } else if (mCalendar.get(Calendar.DAY_OF_WEEK) == Calendar.FRIDAY) {
                 mBackgroundBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.devrant_smile);
             } else {
                 mBackgroundBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.bg);
